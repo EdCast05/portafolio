@@ -1,0 +1,51 @@
+.principal{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cont-hijo1{
+    background-image: url(../../assets/imgs/1679415622243-removebg-preview.png);
+    width: 60%;
+    margin: 0 auto;
+    height: 400px;
+    border-radius: 50px;
+}
+.cont-hijo2{
+    width: 110%;
+    position: relative;
+    right: 100px;
+    
+}
+.info{
+    -webkit-box-shadow: 3px 1px 24px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 1px 24px -4px rgba(0,0,0,0.75);
+    box-shadow: 3px 1px 24px -4px rgba(0,0,0,0.75);
+    border-radius: 18px;
+    padding: 10px;
+    width: 85%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.info:hover{
+    -webkit-box-shadow: 3px 1px 24px -4px rgba(0, 92, 23, 0.75);
+    -moz-box-shadow: 3px 1px 24px -4px rgba(0, 207, 52, 0.75);
+    box-shadow: 3px 1px 24px -4px rgba(0, 82, 20, 0.75);
+    cursor: pointer;
+}
+
+.descripcion{
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+}
+.desc-1{
+    text-align: center;
+}
+.desc-2{
+    text-align: center;
+}
