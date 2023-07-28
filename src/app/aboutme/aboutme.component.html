@@ -1,18 +1,17 @@
 <app-nav-bar></app-nav-bar>
 
 <div class="principal">
-    <div class="cont-hijo1">
+    <div class="cont-hijo1" >
         <img src="../../assets/imgs/1679415622243-removebg-preview.png" alt="">
         <hr>
         <div>
             <p>Eduar Andrés Castañeda Molina</p> 
         </div>
         <div class="desc-1" >
-            <h2>Mathematician <br>
-                Master of science in statistics</h2>
+            <h2> {{ typedTitle }} </h2>
         </div>
     </div>
-    <div class="cont-hijo2">
+    <div class="cont-hijo2" [ngStyle]="{'opacity': showContHijo2 ? 1 : 0, 'pointer-events': showContHijo2 ? 'auto' : 'none'}">
         <div class="info">
             <p>I am a mathematician specializing in statistics, holding a master's degree in the field.
                 My primary interest lies in utilizing advanced mathematical and statistical techniques to tackle
@@ -25,9 +24,7 @@
                 for problem-solving and possess sharp analytical abilities. I am enthusiastic about employing my skills
                 and knowledge in a data-driven work environment.</p>
         </div>
-        <div class="desc-2" >
-            <p>descripcion</p>
-        </div>
+        
     </div>
 </div>
 

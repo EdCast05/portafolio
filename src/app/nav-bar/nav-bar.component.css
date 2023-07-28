@@ -1,12 +1,13 @@
 nav {
-    background-color: #333;
+    background-color: #242424;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
     text-align: center;
-    
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.522);
+    font-weight: bold;
   }
   
   nav ul {
@@ -25,8 +26,8 @@ nav {
     color: #fff;
     text-decoration: none;
     font-family: 'Arial', sans-serif;
-    font-size: 17px;
-    
+    font-size: 13px;
+    text-transform: uppercase;
   }
   
   nav ul li a:hover {

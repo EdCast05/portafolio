@@ -1,8 +1,9 @@
 .principal{
     margin-top: 70px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
+    grid-template-columns: repeat(1, 1fr);
+    width: 85%;
+    margin: 0 auto;
 }
 .cont-hijo1{
     width: 60%;
@@ -21,39 +22,31 @@
 border-radius: 50%;
 }
 
-.cont-hijo2{
-    width: 110%;
-    position: relative;
-    right: 100px;
-    
-}
 .info{
     
     border-radius: 18px;
-    padding: 20px;
-    width: 85%;
+    padding: 5px;
+    width: 100%;
     text-align: justify;
     font-size: 18px;
     font-family: sans-serif;
     margin: 0 auto;
-    margin-top: 20px;
+    
 }
 .info:hover{
-    -webkit-box-shadow: 3px 1px 24px -4px rgba(0, 0, 0, 0.196);
-    -moz-box-shadow: 3px 1px 24px -4px rgba(0, 0, 0, 0.112);
-    box-shadow: 3px 1px 24px -4px rgba(0, 0, 0, 0.166);
+    
     cursor: pointer;
 }
 .info p{
     font-family: "Arial", sans-serif;
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 1.3;
     color: #444444;
-    margin-bottom: 20px;
+    
 }
 .descripcion{
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
@@ -77,5 +70,15 @@ h2 {
     .principal{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .cont-hijo1{
+        width: 100%;
+    margin-top: 91px !important;
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+    }
+    .info{
+        margin-top: 60px;
     }
   }

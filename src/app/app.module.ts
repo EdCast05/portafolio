@@ -10,9 +10,10 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { CertificationsComponent } from './certifications/certifications.component';
 import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     ProjectsComponent,
     NavBarComponent,
@@ -20,7 +21,8 @@ import { EducationComponent } from './education/education.component';
     ContactComponent,
     FooterComponent,
     CertificationsComponent,
-    EducationComponent
+    EducationComponent,
+    SkillsComponent
    ],
   imports: [
     BrowserModule,

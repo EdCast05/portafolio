@@ -10,6 +10,8 @@ export class EducationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
+
 
 }

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+/* *{
+    font-family: monospace;
+    font-size: 13.5px;
+} */
+*{
+    transition-property: all; /* Aplica la transición a todas las propiedades */
+  transition-duration: 0.8s; /* Duración de la transición (en segundos) */
+  transition-timing-function: ease-in;
+}
