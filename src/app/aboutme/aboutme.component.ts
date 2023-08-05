@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./aboutme.component.css']
 })
 export class AboutmeComponent implements OnInit {
-  titleText = 'MATHEMATICIAN MASTER OF SCIENCE IN STATISTICS';
+  titleText = 'MATHEMATICIAN - MASTER OF SCIENCE IN STATISTICS';
   typedTitle = '';
   index = 0;
   showContHijo2 = false;

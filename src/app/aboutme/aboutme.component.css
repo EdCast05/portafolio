@@ -25,13 +25,13 @@ border-radius: 50%;
 .info{
     
     border-radius: 18px;
-    padding: 5px;
-    width: 100%;
+    padding:25px;
+    width: 70%;
     text-align: justify;
     font-size: 18px;
     font-family: sans-serif;
     margin: 0 auto;
-    
+    margin-bottom: 80px !important;
 }
 .info:hover{
     
@@ -80,5 +80,7 @@ h2 {
     }
     .info{
         margin-top: 60px;
+        width: 90%;
+        padding: 0;
     }
   }
