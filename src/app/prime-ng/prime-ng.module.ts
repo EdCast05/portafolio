@@ -7,6 +7,8 @@ import { MenubarModule } from 'primeng/menubar';
 import { PanelModule } from 'primeng/panel';
 import { ChipModule } from 'primeng/chip';
 import { AccordionModule } from 'primeng/accordion';
+import { AvatarModule } from 'primeng/avatar';
+import { AvatarGroupModule } from 'primeng/avatargroup';
 
 @NgModule({
   exports: [
@@ -15,7 +17,9 @@ import { AccordionModule } from 'primeng/accordion';
     MenubarModule,
     PanelModule,
     ChipModule,
-    AccordionModule
+    AccordionModule,
+    AvatarModule,
+    AvatarGroupModule
   ]
 })
 export class PrimeNgModule { }
