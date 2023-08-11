@@ -6,6 +6,7 @@ import { CardModule } from 'primeng/card';
 import { MenubarModule } from 'primeng/menubar';
 import { PanelModule } from 'primeng/panel';
 import { ChipModule } from 'primeng/chip';
+import { AccordionModule } from 'primeng/accordion';
 
 @NgModule({
   exports: [
@@ -13,7 +14,8 @@ import { ChipModule } from 'primeng/chip';
     CardModule,
     MenubarModule,
     PanelModule,
-    ChipModule
+    ChipModule,
+    AccordionModule
   ]
 })
 export class PrimeNgModule { }

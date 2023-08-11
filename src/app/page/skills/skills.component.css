@@ -32,10 +32,14 @@
     padding: 16px;
 }
 
-.logo {
-    width: 45%;
-    background-color: #cbeaeb38;
-    border-radius: 19px 0 0 0;
+.custom-card-left {
+    box-shadow: 0 0 6px 1px #81c784 !important;
+    border-radius: 20px 0 10px 0 !important;
+}
+
+.custom-card-right {
+    box-shadow: 0 0 6px 1px #81c784 !important;
+    border-radius: 0 20px 0px 20px !important;
 }
 
 .logo img {
