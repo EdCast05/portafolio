@@ -1,0 +1,64 @@
+.principal {
+    width: 90%;
+    margin: 60px 60px 60px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.personal {
+    padding: 10px;
+}
+
+.title-personal {
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.refer {
+    padding: 10px;
+}
+
+.title-refer {
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cont-personal {
+    margin-top: 20px;
+    padding: 0;
+    line-height: 0.3;
+    padding: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.cont-ref {
+    margin-top: 20px;
+    padding: 0;
+    line-height: 0.3;
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .principal {
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        overflow: auto;
+        max-height: 80vh;
+    }
+
+}

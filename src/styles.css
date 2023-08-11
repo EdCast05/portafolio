@@ -1,10 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
-/* *{
-    font-family: monospace;
-    font-size: 13.5px;
-} */
-*{
-    transition-property: all; /* Aplica la transición a todas las propiedades */
-  transition-duration: 0.8s; /* Duración de la transición (en segundos) */
+/* @import "primeng/resources/themes/vela-blue/theme.css"; */
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.scss";
+
+* {
+  transition-property: all;
+  /* Aplica la transición a todas las propiedades */
+  transition-duration: 0.8s;
+  /* Duración de la transición (en segundos) */
   transition-timing-function: ease-in;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--surface-ground);
+  color: var(--text-color);
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  background: var(--surface-card);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
 }

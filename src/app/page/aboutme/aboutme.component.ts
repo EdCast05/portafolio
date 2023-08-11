@@ -1,17 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-aboutme',
   templateUrl: './aboutme.component.html',
   styleUrls: ['./aboutme.component.css']
 })
 export class AboutmeComponent implements OnInit {
-  titleText = 'MATHEMATICIAN - MASTER OF SCIENCE IN STATISTICS';
+
+  titleText = 'Mathematician Master Of Science In Statistics';
   typedTitle = '';
   index = 0;
   showContHijo2 = false;
-
-  constructor() { }
 
   ngOnInit() {
     this.typeEffect();
