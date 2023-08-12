@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
     // Simula un retraso para mostrar el spinner de carga
     setTimeout(() => {
       this.isLoading = false; // Indica que el contenido ha terminado de cargar
-    }, 4000); // Cambia esto al tiempo que consideres adecuado
+    }, 3500); // Cambia esto al tiempo que consideres adecuado
   }
 
   setSandboxAttribute() {
