@@ -9,18 +9,26 @@ import { environment } from '../../env/enviroment';
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent implements OnInit {
+  isLoading: boolean = true;
+  urlDelSitioExterno1: string = environment.powerBiUrl1;
+  urlDelSitioExterno2: string = environment.powerBiUrl2;
 
-  urlDelSitioExterno: string = environment.powerBiUrl;
-
-  urlDelSitioExternoSegura!: SafeResourceUrl;
+  urlDelSitioExternoSegura1!: SafeResourceUrl;
+  urlDelSitioExternoSegura2!: SafeResourceUrl;
 
   constructor(private sanitizer: DomSanitizer) { }
 
   ngOnInit() {
     this.setSandboxAttribute();
+    // Simula un retraso para mostrar el spinner de carga
+    setTimeout(() => {
+      this.isLoading = false; // Indica que el contenido ha terminado de cargar
+    }, 4000); // Cambia esto al tiempo que consideres adecuado
   }
 
   setSandboxAttribute() {
-    this.urlDelSitioExternoSegura = this.sanitizer.bypassSecurityTrustResourceUrl(this.urlDelSitioExterno);
+    this.urlDelSitioExternoSegura1 = this.sanitizer.bypassSecurityTrustResourceUrl(this.urlDelSitioExterno1);
+    this.urlDelSitioExternoSegura2 = this.sanitizer.bypassSecurityTrustResourceUrl(this.urlDelSitioExterno2);
+
   }
 }

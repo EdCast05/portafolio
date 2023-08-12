@@ -17,6 +17,7 @@ import { ProjectsComponent } from './page/projects/projects.component';
 import { CertificationsComponent } from './page/certifications/certifications.component';
 import { SkillsComponent } from './page/skills/skills.component';
 import { ContactComponent } from './page/contact/contact.component';
+import { LoadingSpinnerComponent } from './shared/loading-spinner/loading-spinner.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './page/contact/contact.component';
     ProjectsComponent,
     CertificationsComponent,
     SkillsComponent,
-    ContactComponent
+    ContactComponent,
+    LoadingSpinnerComponent
   ],
   imports: [
     BrowserModule,

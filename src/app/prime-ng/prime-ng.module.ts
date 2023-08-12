@@ -9,6 +9,7 @@ import { ChipModule } from 'primeng/chip';
 import { AccordionModule } from 'primeng/accordion';
 import { AvatarModule } from 'primeng/avatar';
 import { AvatarGroupModule } from 'primeng/avatargroup';
+import {CarouselModule} from 'primeng/carousel';
 
 @NgModule({
   exports: [
@@ -19,7 +20,8 @@ import { AvatarGroupModule } from 'primeng/avatargroup';
     ChipModule,
     AccordionModule,
     AvatarModule,
-    AvatarGroupModule
+    AvatarGroupModule,
+    CarouselModule
   ]
 })
 export class PrimeNgModule { }

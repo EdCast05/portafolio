@@ -1,10 +1,80 @@
 <app-menu></app-menu>
 
-<div class="powerbi">
-    <h2>Project based in power Bi</h2>
-    <iframe class="powercont" title="Report Section" width="60%" height="500" [src]="urlDelSitioExternoSegura"
-        frameborder="0" allowFullScreen="true" loading="lazy" alt="Project report based on Power BI">
-    </iframe>
-</div>
+<ng-template #loadingTemplate>
+    <div class="loading">
+      <app-loading-spinner></app-loading-spinner>
+    </div>
+  </ng-template>
 
+  <div *ngIf="isLoading; else content">
+    <ng-container *ngTemplateOutlet="loadingTemplate"></ng-container>
+  </div>
+
+
+  <ng-template #content>
+<div class="cont-princ">
+
+    <div class="cont1">
+        <div class="columns-text">
+            <h2>Project based in power Bi1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ullam ut atque aliquam natus cum
+                voluptatibus
+                eius vel quod aspernatur molestiae excepturi praesentium, mollitia hic. Totam voluptate eligendi omnis
+                dignissimos.
+                Harum sed eveniet rem nam? Perferendis incidunt odio minima ea a rem, placeat similique iste repellendus
+                inventore distinctio sapiente. Corporis voluptates rerum quam illum fugit dolorem laboriosam libero unde
+                labore?
+                Animi repudiandae ex impedit magni omnis in, libero nam eum debitis fugit suscipit iure quasi officiis,
+                quam
+                error deserunt cupiditate aperiam praesentium blanditiis. Unde magnam ex nisi nulla perspiciatis
+                consequuntur?
+                Autem inventore nostrum nulla unde. Aut, fugiat eveniet dignissimos rerum eius, asperiores accusamus
+                harum
+                corrupti at fuga nihil autem eum, fugit ipsam. Reiciendis rerum sint magnam minus nihil ea neque!
+                Molestias exercitationem commodi, error earum, voluptatibus accusantium praesentium officia, optio
+                incidunt
+                ab dolorum. Soluta nobis eaque quis libero ducimus nemo dolorum ratione quod amet cum eum enim, fugiat
+                qui
+                sit.</p>
+        </div>
+        <div class="columns-proj">
+            <iframe class="powercont" title="Report Section" width="60%" height="500" [src]="urlDelSitioExternoSegura1"
+                frameborder="0" allowFullScreen="true" loading="lazy" alt="Project report based on Power BI">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="cont2">
+        <div class="columns-text">
+            <h2>Project based in power Bi1</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi ullam ut atque aliquam natus cum
+                voluptatibus
+                eius vel quod aspernatur molestiae excepturi praesentium, mollitia hic. Totam voluptate eligendi omnis
+                dignissimos.
+                Harum sed eveniet rem nam? Perferendis incidunt odio minima ea a rem, placeat similique iste repellendus
+                inventore distinctio sapiente. Corporis voluptates rerum quam illum fugit dolorem laboriosam libero unde
+                labore?
+                Animi repudiandae ex impedit magni omnis in, libero nam eum debitis fugit suscipit iure quasi officiis,
+                quam
+                error deserunt cupiditate aperiam praesentium blanditiis. Unde magnam ex nisi nulla perspiciatis
+                consequuntur?
+                Autem inventore nostrum nulla unde. Aut, fugiat eveniet dignissimos rerum eius, asperiores accusamus
+                harum
+                corrupti at fuga nihil autem eum, fugit ipsam. Reiciendis rerum sint magnam minus nihil ea neque!
+                Molestias exercitationem commodi, error earum, voluptatibus accusantium praesentium officia, optio
+                incidunt
+                ab dolorum. Soluta nobis eaque quis libero ducimus nemo dolorum ratione quod amet cum eum enim, fugiat
+                qui
+                sit.</p>
+        </div>
+
+        <div class="columns-proj">
+            <iframe class="powercont" title="Report Section" width="60%" height="500" [src]="urlDelSitioExternoSegura2"
+                frameborder="0" allowFullScreen="true" loading="lazy" alt="Project report based on Power BI">
+            </iframe>
+        </div>
+    </div>
+
+</div>
+</ng-template>
 <app-footer></app-footer>

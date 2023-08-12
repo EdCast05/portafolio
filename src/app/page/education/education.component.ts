@@ -7,11 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EducationComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
-
+    // Simula un retraso para mostrar el spinner de carg
   }
-
-
 }
