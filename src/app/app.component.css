@@ -1,8 +1,4 @@
 /* @import "primeng/resources/themes/vela-blue/theme.css"; */
-@import "primeng/resources/primeng.css";
-@import "primeicons/primeicons.css";
-
-
 * {
   transition-property: all;
   /* Aplica la transición a todas las propiedades */
