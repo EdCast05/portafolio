@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 19px 0;
-    box-shadow: 0 0 0 1px #81c784;
+    /* box-shadow: 0 0 0 1px #81c7844f; */
     background: #2e425e;
 }
 
@@ -30,6 +30,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     padding: 16px;
+    margin-top: 50px;
 }
 
 .custom-card-left {
@@ -84,6 +85,7 @@ strong {
         gap: 19px;
         text-align: justify;
         padding: 33px;
+        margin-top: 0px;
     }
 
     .logo {
