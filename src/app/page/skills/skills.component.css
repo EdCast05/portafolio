@@ -9,7 +9,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-radius: 19px 0;
-    box-shadow: 0 0 0 1px #81c784;
+    box-shadow: 0 0 0 1px #1aaeb8;
     background: #2e425e;
 }
 
@@ -21,8 +21,9 @@
 }
 
 .descrip p {
-    font-size: 15px;
-    margin-top: 3px;
+    font-size: 13px;
+    margin-top: 6px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cont {
@@ -33,26 +34,27 @@
 }
 
 .custom-card-left {
-    box-shadow: 0 0 6px 1px #81c784 !important;
+    box-shadow: 0 0 6px 1px #1aaeb8 !important;
     border-radius: 20px 0 10px 0 !important;
 }
 
 .custom-card-right {
-    box-shadow: 0 0 6px 1px #81c784 !important;
+    box-shadow: 0 0 6px 1px #1aaeb8 !important;
     border-radius: 0 20px 0px 20px !important;
 }
 
 .logo img {
-    width: 70px;
-    border-radius: 50%;
-    margin: 29px 0 0px 9px;
+    width: 80px;
+    border-radius: 25%;
+    margin: 30px 0 0px 9px;
     background-color: rgb(255, 255, 255);
 }
 
 strong {
-    color: #81c784;
+    color: #f4f4f9;
     font-size: 20px;
-    padding-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 4px !important;
 }
 
 

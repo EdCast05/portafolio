@@ -12,6 +12,10 @@
     padding: 10px;
 }
 
+.card-principal {
+    border-color: #1aaeb8;
+}
+
 .title-personal {
     background-color: #242424;
     padding: 10px;
