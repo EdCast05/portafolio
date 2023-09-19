@@ -10,7 +10,10 @@
     grid-template-columns: repeat(2, 1fr);
     border-radius: 19px 0;
     /* box-shadow: 0 0 0 1px #81c7844f; */
-    background: #2e425e;
+    background: #1f2d40;
+    color: rgba(255, 255, 255, 0.87);
+    border: 1px solid #304562;
+    
 }
 
 .descrip {
@@ -70,7 +73,7 @@ strong {
         grid-template-columns: 1fr;
         border-radius: 0 21px 0 21px;
         box-shadow: 0 0 0 1px #347C8C;
-        background: #2e425e;
+        background: #304562;
     }
 
     .descrip {

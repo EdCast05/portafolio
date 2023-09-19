@@ -6,6 +6,13 @@ iframe.powercont {
     border-radius: 9px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+.title-personal{
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+}
 
 /* Estilos base para el contenedor que envuelve al iframe */
 .powerbi {
@@ -29,7 +36,6 @@ iframe.powercont {
     grid-template-columns: repeat(2,1fr);
 }
 .cont2{
-    margin-top: 200px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
    
