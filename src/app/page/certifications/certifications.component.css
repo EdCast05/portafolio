@@ -93,3 +93,17 @@
   .img-cert{
     background-image: url(../../../assets/imgs/Certifications/Google.png);
   }
+
+  @media(max-width: 1000px){
+    .hijo{
+      display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    }
+  }
+  @media(max-width: 600px){
+    .hijo{
+      display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    padding: 22px;
+    }
+  }
