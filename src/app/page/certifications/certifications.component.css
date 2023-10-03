@@ -38,6 +38,13 @@
     -ms-flex-pack: center;
     justify-content: center;
     color: #000;
+    /* background-image: url(../../../assets/imgs/Certifications/Google.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .book .img{
+    width: 95%;
+    height: 95%;
   }
   
   .cover {
@@ -78,8 +85,11 @@
     -ms-transform: rotatey(-80deg);
     transform: rotatey(-80deg);
   }
-  
+
   p {
     font-size: 20px;
     font-weight: bolder;
+  }
+  .img-cert{
+    background-image: url(../../../assets/imgs/Certifications/Google.png);
   }
