@@ -99,6 +99,10 @@
       display: grid;
     grid-template-columns: repeat(2, 2fr);
     }
+    .book .img{
+      width: 250px;
+      height: 285px;
+    }
   }
   @media(max-width: 600px){
     .hijo{
@@ -106,4 +110,16 @@
     grid-template-columns: repeat(1, 4fr);
     padding: 22px;
     }
+    .book:active .cover,
+  .book:focus .cover {
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+      -webkit-transform: rotateY(-80deg);
+      -ms-transform: rotateY(-80deg);
+      transform: rotateY(-80deg);
+  }
+  .book .img{
+    width: 250px;
+    height: 285px;
+  }
   }
