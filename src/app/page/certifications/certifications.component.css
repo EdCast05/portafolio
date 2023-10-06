@@ -41,6 +41,7 @@
     /* background-image: url(../../../assets/imgs/Certifications/Google.png); */
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
   }
   .book .img{
     width: 95%;
@@ -99,10 +100,7 @@
       display: grid;
     grid-template-columns: repeat(2, 2fr);
     }
-    .book .img{
-      width: 250px;
-      height: 285px;
-    }
+    
   }
   @media(max-width: 600px){
     .hijo{
@@ -118,8 +116,5 @@
       -ms-transform: rotateY(-80deg);
       transform: rotateY(-80deg);
   }
-  .book .img{
-    width: 250px;
-    height: 285px;
-  }
+  
   }

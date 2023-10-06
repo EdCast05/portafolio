@@ -20,10 +20,9 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.setSandboxAttribute();
-    // Simula un retraso para mostrar el spinner de carga
     setTimeout(() => {
-      this.isLoading = false; // Indica que el contenido ha terminado de cargar
-    }, 3500); // Cambia esto al tiempo que consideres adecuado
+      this.isLoading = false; 
+    }, 3500); 
   }
 
   setSandboxAttribute() {
