@@ -13,7 +13,7 @@
     background: #1f2d40;
     color: rgba(255, 255, 255, 0.87);
     border: 1px solid #304562;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .descrip {
@@ -54,7 +54,8 @@
 }
 
 strong {
-    color: #81c784;
+    color: white;
+    font-weight: bold;
     font-size: 20px;
     padding-bottom: 3px;
 }

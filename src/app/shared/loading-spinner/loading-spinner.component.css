@@ -28,7 +28,7 @@
 }
 
 .loader .getting-there {
-  width: 120%;
+  width: 105%;
   text-align: center;
   position: absolute;
   bottom: 0;
@@ -36,6 +36,7 @@
   font-size: 12px;
   letter-spacing: 2px;
   color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
 }
 
 .loader .binary {

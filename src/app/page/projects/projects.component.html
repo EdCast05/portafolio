@@ -2,18 +2,20 @@
 
 <ng-template #loadingTemplate>
     <div class="loading">
-      <app-loading-spinner></app-loading-spinner>
+        <app-loading-spinner></app-loading-spinner>
     </div>
-  </ng-template>
+</ng-template>
 
-  <div *ngIf="isLoading; else content">
+<div *ngIf="isLoading; else content">
     <ng-container *ngTemplateOutlet="loadingTemplate"></ng-container>
-  </div>
+</div>
 
 
-  <ng-template #content>
-    <div style="width: 400px; text-align: center; margin: 0 auto; margin-top: 100px;"><h1>COMING SOON ...</h1></div>
-<!-- <div class="cont-princ">
+<ng-template #content>
+    <div style="width: 400px; text-align: center; margin: 0 auto; margin-top: 100px;">
+        <h1>COMING SOON ...</h1>
+    </div>
+    <!-- <div class="cont-princ">
     <div class="title-personal" id="title">PROYECTO 1</div>
     <br>
     <br>

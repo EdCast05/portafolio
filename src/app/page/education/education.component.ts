@@ -6,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./education.component.css']
 })
 export class EducationComponent implements OnInit {
+  isLoading: boolean = true;
 
 
   constructor() { }
 
   ngOnInit() {
-    // Simula un retraso para mostrar el spinner de carg
+    setTimeout(() => {
+      this.isLoading = false; 
+    }, 3500); 
   }
 }
