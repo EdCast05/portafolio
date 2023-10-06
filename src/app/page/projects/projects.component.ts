@@ -22,7 +22,7 @@ export class ProjectsComponent implements OnInit {
     this.setSandboxAttribute();
     setTimeout(() => {
       this.isLoading = false; 
-    }, 3500); 
+    }, 1800); 
   }
 
   setSandboxAttribute() {

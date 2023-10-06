@@ -14,6 +14,6 @@ export class EducationComponent implements OnInit {
   ngOnInit() {
     setTimeout(() => {
       this.isLoading = false; 
-    }, 3500); 
+    }, 1800); 
   }
 }
